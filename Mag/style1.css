@@ -1,0 +1,265 @@
+body{
+    background-color: white;
+    max-width: 800px;
+}
+
+#Cart{
+    border: none;
+    border-radius: 0 0 50px 50px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 23px -6px rgba(34, 60, 80, 1);
+    -moz-box-shadow: 0px 0px 23px -6px rgba(34, 60, 80, 1);
+    box-shadow: 0px 0px 23px -6px rgba(34, 60, 80, 1);
+}
+#cartLogo{
+    float:right;
+    width: 60px;
+    min-height: 60px;
+    min-width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    background-color: #72cc41;
+    border-radius: 100px;
+    text-align: center;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight:600;
+    font-size:15px;
+    color: #e6ffe6;
+
+}
+#closeCart{
+    float:right;
+    width: 60px;
+    min-height: 60px;
+    min-width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-right: 10px;
+    background-color: #72cc41;
+    border-radius: 100px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    text-align: center;
+    border: none;
+    color: #e6ffe6;
+
+}
+#textLogo{
+    margin-left: 20px;
+    float: left;
+    font-size: 50px;
+    font-family: 'Museo Sans Cyrl',Helvetica,Arial,sans-serif;
+    color: #72cc41;
+    text-shadow: 1px 1px 2px #b4efb4;
+}
+
+#cartTextLogo{
+    margin-left: 20px;
+    float: left;
+    font-size: 50px;
+    font-family: 'Museo Sans Cyrl',Helvetica,Arial,sans-serif;
+    color: #72cc41;
+    text-shadow: 1px 1px 2px #b4efb4;
+    margin-top: 10px;
+}
+
+.itemCard{
+    margin-top: 20px;
+    margin-left: 5%;
+    float: left;
+    width: 42.5%;
+    box-shadow: 0px 0px 10px 0px #b4efb4;
+    border-radius: 10px;
+    min-height:300px;
+    position:relative;
+    padding-bottom: 20px;
+}
+.itemCard img{
+    width: 90%;
+    height:auto;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.itemCard p{
+    color: #72cc41;
+    margin-top: -5px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center  ;
+    font-size: 15px;
+}
+.itemSize{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #72cc41;
+    font-size: 14px;
+    margin-top: -5px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center  ;
+}
+.itemPrice{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #72cc41;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 20px;
+}
+.name{
+    height: 30px;
+}
+.itemName{
+    font-size: 13px;
+    font-weight: bold;
+}
+.addToCardBtn{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    color: #e6ffe6;
+    border: none;
+    background-color: #72cc41;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.changeCount{
+    width: 22%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #e6ffe6;
+    border: none;
+    background-color: #72cc41;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+    padding: 10px;
+}
+.countInCart{
+    margin-left: 8%;
+    width: 16%;
+    color: black;
+    margin-bottom: 10px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+.actionBox{
+    height: 40px;
+    z-index: 0;
+}
+.vis{
+    top: 0px;
+}
+.nvis{
+    top: -2000px;
+}
+.cart{
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    min-height: 500px;
+    position: absolute;
+    left: 0px;
+    transition: 0.5s;
+}
+#buy{
+    float: bottom;
+    margin-top: 30px;
+    margin-left: 10%    ;
+    width: 80%;
+    left: 10%;
+    border-radius: 20px;
+    color: #e6ffe6;
+    border: none;
+    background-color: #72cc41;
+    line-height: 100%;
+    font-family: 'Jost', sans-serif;
+    font-weight:600;
+    font-size:25px;
+    padding:15px;
+
+
+}
+#sum{
+    margin-left: 10%;
+    font-family: "Arial", Gadget, sans-serif;
+}
+#cartBlock{
+    width: 100%;
+    margin-top: 90px;
+}
+#room{
+    float:left;
+    margin-left: 10%;
+    width: 140px;
+    border-radius: 10px;
+    font-size:20px;
+    color: black;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+.adminpanelbtn{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    color: whitesmoke;
+    border: none;
+    background-color: #72cc41;
+    padding: 15px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+.purchasecard{
+    width: 80%;
+    margin-left: 8%;
+    border-radius: 10px;
+    background-color: #E9FFEF;
+    margin-top: 20px;
+    padding: 2%;
+    font-family: "Arial", Gadget, sans-serif;
+    -webkit-box-shadow: 0px 0px 23px -6px rgba(34, 60, 80, 1);
+    -moz-box-shadow: 0px 0px 23px -6px rgba(34, 60, 80, 1);
+    box-shadow: 0px 0px 23px -6px rgba(34, 60, 80, 1);
+}
+.purchasebtn{
+    margin-top: 20px;
+    width: 45%;
+
+    border-radius: 10px;
+    color: black;
+    border: none;
+
+
+}
+.menu_link{
+    text-decoration: none;
+    font-family: "Arial", Gadget, sans-serif;
+    color: green;
+    font-size: 20px;
+}
+.canselbtn{
+    margin-left: 7%;
+    background-color: darkred;
+    color:wheat;
+    padding: 10px;
+}
+.acceptbtn{
+    padding: 10px;
+    background-color: greenyellow;
+}
+b{
+    font-family: "Arial", Gadget, sans-serif;
+}
+#stats{
+    text-decoration: none;
+    font-family: "Arial", Gadget, sans-serif;
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
